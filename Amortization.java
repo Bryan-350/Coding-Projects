@@ -11,7 +11,7 @@ public class Amortization {
     private int loanYears; //int variable used to hold the number of years of the loan
     private double interestMonth; //double variable that stores the interest accrued in the current month
     private double principal; //double variable that shows the principal of the payment
-    private double interestPercent = getInterestRate() * 100; //double variable that converts the interest rate to a %
+    private double interestPercent; //double variable that shows interestRate in a percentage
     private int paymentMonth = 1; //int variable that is used as a counter for the current month
 
     /**Constructor that takes in the loan, rate and years of the loan
@@ -28,7 +28,8 @@ public class Amortization {
     {
         term = Math.pow((1 + (interestRate / 12)), (loanYears * 12));
 
-        payment = (((loanAmount * (interestRate/12) * term) / (term - 1))); 
+        payment = (((loanAmount * (interestRate/12) * term) / (term - 1)));
+        interestPercent = interestRate * 100;
     }
 
     /**Public method that calculates how many payments
