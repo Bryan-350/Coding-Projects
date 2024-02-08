@@ -1,2 +1,2 @@
 # Coding-Projects
-This is just a collection of projects I have done either for a class or as a side hobby
+This is just a collection of projects/assignments I have done. It is quite empty but it shows my ability to think logically and write code to effectively create solutions. These first two programs display my understanding of the basics of programming such as functions, control structures, file I/O, command line argument input, classes, object oriented programming, as well as code modularization. I look forward to adding more projects/assignments in the future in not only Java and C++, but also Javascript and Python. 
