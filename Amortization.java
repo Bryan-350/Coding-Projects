@@ -1,3 +1,9 @@
+/**This project that I coded in Java is essentially a calculator that can calculate the Amortization payments for a loan. 
+    It can calculate loan payment amounts, the number of payments for a loan, the split between interest and principle
+    for each payment, etc. Originally this was an individual semester long project but it was quite simple and I knocked it out
+    in a couple of days or so. Although simple, it gave me a firm understanding of how classes, objects, and functions work while 
+    also creating a tool that will be beneficial for me as a young adult. **/
+
 import javax.swing.JOptionPane;
 import java.io.*;
 
