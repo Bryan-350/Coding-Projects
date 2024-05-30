@@ -1,10 +1,11 @@
-/*  This program gave me familiarity with the basics of
+/*  This program was a class assignment that gave me familiarity with the basics of
     programming such as functions, control structures, file I/O, etc.
     The program takes in a csv file via command line arguments parses out
     the information, and performs calculations to determine the
     most popular and profitable items as well as the item that generated
     the most profit. While not the most attractive looking code, I look
-    forward to rewriting the code to be more modular.
+    forward to rewriting the code to be more modular. The main function was 
+    skeleton code provided to me. I had to write my code to support it.    
 */
 
 #include<iostream>
@@ -34,6 +35,8 @@ int quantities[], int size);
 string generatedMostProfit(string items[],double retails[],
 double costs[], int quantities[], int size);
 
+
+//Start of Main function skeleton code
 int main(int argc, char *argv[]){
 
     //if there are no arguments or too many, exit program
@@ -114,7 +117,7 @@ int main(int argc, char *argv[]){
     
     
     return 0;
-}
+}//End of Main Function
 
 //shows menu to user
 void showMenu()
